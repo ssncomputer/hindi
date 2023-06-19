@@ -1,0 +1,33 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Remove background",
+      "identifier": "remove.bg.remove-bg",
+      "script": "remove-bg.js"
+    },
+    {
+      "name": "Set Remove.bg API key",
+      "identifier": "remove.bg.api-key",
+      "script": "set-api-key.js"
+    }
+  ],
+  "menu": {
+    "title": "Remove.bg",
+    "items": [
+      "remove.bg.remove-bg",
+      "-",
+      "remove.bg.api-key"
+    ]
+  },
+  "version": "0.2.0",
+  "description": "Remove image background in a single click",
+  "name": "Remove.bg",
+  "identifier": "Remove.bg",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/mathieudutour/sketch-remove-bg/master/.appcast.xml",
+  "author": "Mathieu Dutour",
+  "authorEmail": "mathieu@dutour.me"
+}
